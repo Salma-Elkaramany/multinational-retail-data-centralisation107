@@ -53,7 +53,7 @@ class DataExtractor:
 
 if __name__ == "__main__":
     data_extractor = DataExtractor()
-    # Example usage (you can add more as needed)
+    # Example usage
     pdf_data = data_extractor.retrieve_pdf_data("https://data-handling-public.s3.eu-west-1.amazonaws.com/card_details.pdf")
     store_data = data_extractor.retrieve_stores_data()
     s3_table = data_extractor.extract_from_s3('products.csv')

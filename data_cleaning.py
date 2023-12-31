@@ -73,9 +73,3 @@ class DataCleaning:
 
 if __name__ == "__main__":
     data_cleaner = DataCleaning()
-
-    # Example usage
-    #user_data = data_cleaner.clean_user_data(DataExtractor().read_rds_table('legacy_users'))
-    #card_data = data_cleaner.clean_card_data(DataExtractor().retrieve_pdf_data("https://data-handling-public.s3.eu-west-1.amazonaws.com/card_details.pdf"))
-    #store_data = data_cleaner.clean_store_data(DataExtractor().retrieve_stores_data())
-    # ... (similarly for other data cleaning methods)
